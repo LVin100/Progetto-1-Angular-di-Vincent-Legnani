@@ -1,3 +1,9 @@
+Ciao! Questo è il mio progetto sull'uso di Angular,
+l'uso dell'applicazione è molto semplice: troverai una pagina di annunci di lavoro presi dall'API di www.themuse.com, filtrabili per livello di ingresso e navigabili nelle varie pagine.
+cliccando sull'annuncio si viene reindirizzati alla pagina relativa allo stesso con tutti i dettagli, cliccando poi sul nome dell'azienda è possibile vederne qualche dettaglio. 
+
+Sotto lascio il procedimento ufficiale di angular per avviare l'applicazione in locale!
+
 # JobApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
