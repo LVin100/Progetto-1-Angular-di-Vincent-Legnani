@@ -1,0 +1,10 @@
+<div class="company-details">
+  <h3>Details about {{ companyDetailsService.detail.name }}:</h3>
+  <p>
+    Located: {{ companyDetailsService.detail.locations[0].name }}<br />
+    Home-page:
+    <a href="{{ companyDetailsService.detail.refs.landing_page }}">
+      {{ companyDetailsService.detail.refs.landing_page }} </a
+    ><br />
+  </p>
+</div>

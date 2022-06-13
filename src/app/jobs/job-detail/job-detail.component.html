@@ -1,0 +1,19 @@
+<nav>
+  <a routerLink="/dashboard">Go back </a>
+</nav>
+
+<div>
+  <h2>{{ jobService.job.name }}</h2>
+
+  <a [routerLink]="['companies-details', jobService.job.company.id]"
+    >Company: {{ jobService.job.company.name }}</a
+  >
+  <router-outlet></router-outlet>
+  <p>Category: {{ jobService.job.categories[0].name }}</p>
+  <p>Levels: {{ jobService.job.levels[0].name }}</p>
+  <p>Location: {{ jobService.job.locations[0].name }}</p>
+  <p>Type: {{ jobService.job.type }}</p>
+</div>
+<h3>job description:</h3>
+
+<p>{{ jobService.htmlConverter(jobService.job.contents) }}</p>
